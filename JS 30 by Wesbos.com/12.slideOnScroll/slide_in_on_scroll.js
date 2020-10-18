@@ -1,3 +1,4 @@
+// to avoiding performance issue, we will only run this function at most, however many seconds by the debounce function
 function debounce(func, wait = 20, immediate = true) {
   var timeout;
   return function() {
